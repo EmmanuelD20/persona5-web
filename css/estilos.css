@@ -1,0 +1,912 @@
+body {
+
+    background-color: #111;
+
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Navbar */
+
+.navbar {
+
+    background-color: #050505;
+
+    border-bottom: 2px solid red;
+
+}
+
+
+.navbar-brand {
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 30px;
+
+    color: red;
+
+}
+
+
+.nav-link {
+
+    color: white !important;
+
+}
+
+
+.nav-link:hover {
+
+    color: red !important;
+
+}
+
+
+
+
+
+/* Hero */
+
+.hero {
+
+    min-height: 85vh;
+
+    padding: 50px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 50px;
+
+    text-align: left;
+
+}
+
+
+
+.hero h1 {
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 80px;
+
+}
+
+
+
+.hero h2 {
+
+    font-size: 40px;
+
+}
+
+
+
+.hero p {
+
+    font-size: 20px;
+
+}
+
+
+
+.frase {
+
+    color: red;
+
+    font-weight: bold;
+
+    letter-spacing: 5px;
+
+}
+
+
+
+.joker {
+
+    position: relative;
+
+}
+
+
+
+.joker img {
+
+    width: 400px;
+
+    max-width: 90%;
+
+    border: 3px solid red;
+
+    border-radius: 15px;
+
+    transition: 0.3s;
+
+}
+
+
+
+.joker img:hover {
+
+    transform: scale(1.05);
+
+    border-color: white;
+
+}
+
+
+
+.joker-info {
+
+    position: absolute;
+
+    bottom: 20px;
+
+    left: 20px;
+
+    right: 20px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    padding: 15px;
+
+    border-left: 3px solid red;
+
+    opacity: 0;
+
+    transition: 0.3s;
+
+}
+
+
+
+.joker:hover .joker-info {
+
+    opacity: 1;
+
+}
+
+
+
+
+
+/* Historia */
+
+.historia {
+
+    padding: 50px 20px;
+
+}
+
+
+
+.historia h2 {
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 45px;
+
+}
+
+
+
+.historia p {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+}
+
+
+
+.historia img {
+
+    width: 500px;
+
+    max-width: 100;
+
+    border-radius: 15px;
+
+    border: 2px solid red;
+
+}
+
+
+
+
+
+/* Galeria */
+
+.galeria {
+
+    padding: 40px 20px;
+
+}
+
+
+
+.galeria h2 {
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 45px;
+
+    text-align: center;
+
+}
+
+.carousel img {
+
+    height: 450px;
+
+    width: 100%;
+
+    object-fit: contain;
+
+    border-radius: 10px;
+
+    background-color: #111;
+
+}
+
+/* Personajes */
+
+.personajes {
+
+    padding: 40px 20px;
+
+}
+
+
+
+.personajes h2 {
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 45px;
+
+    text-align: center;
+
+}
+
+
+
+.card {
+
+    background-color: #161616;
+
+    color: white;
+
+    border: 2px solid red;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    margin-top: 20px;
+
+}
+
+
+
+.card img {
+
+    height: 250px;
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+.card h5 {
+
+    color: red;
+
+}
+
+
+
+.card:hover {
+
+    transform: scale(1.03);
+
+    transition: 0.3s;
+
+}
+
+
+
+
+
+@media(max-width:768px) {
+
+
+    .hero {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 60px;
+
+    }
+
+}
+
+.noticias {
+
+    padding: 40px 20px;
+
+}
+
+
+.noticias h2 {
+
+    text-align: center;
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 45px;
+
+}
+
+.interes {
+
+    padding: 40px 20px;
+
+}
+
+.interes h2 {
+
+    text-align: center;
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 45px;
+
+    margin-bottom: 30px;
+
+}
+
+.interes h4 {
+
+    margin-bottom: 15px;
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 30px;
+
+
+}
+
+.interes iframe {
+
+    border-radius: 15px;
+
+    border: 2px solid red;
+
+}
+
+.btn-outline-light:hover {
+
+    background-color: white;
+
+    color: black;
+
+}
+
+.claro {
+
+    background-color: #f5f5f5;
+
+    color: black;
+
+}
+
+.claro .navbar {
+
+    background-color: white !important;
+
+    border-bottom: 3px solid red;
+
+}
+
+.claro .navbar-brand {
+
+    color: black !important;
+
+}
+
+.claro .navbar-brand:hover {
+
+    color: red !important;
+
+}
+
+.claro .nav-link {
+
+    color: black !important;
+
+}
+
+.claro .nav-link:hover {
+
+    color: red !important;
+
+}
+
+.claro h1,
+.claro h2,
+.claro h4,
+.claro h5 {
+
+    color: red;
+
+}
+
+.claro p {
+
+    color: black;
+
+}
+
+.claro .frase {
+
+    color: red;
+
+}
+
+.claro .hero img {
+
+    border: 3px solid red;
+
+}
+
+.claro .hero img:hover {
+
+    border-color: red;
+
+}
+
+.claro .joker-info {
+
+    background-color: rgba(255, 255, 255, 0.90);
+
+    color: black;
+
+}
+
+.claro .joker-info p {
+
+    color: black;
+
+}
+
+.claro .joker-info h3 {
+
+    color: red;
+
+}
+
+.claro .card {
+
+    background-color: white;
+
+    color: black;
+
+    border: 2px solid red;
+
+}
+
+.claro .card p {
+
+    color: black;
+
+}
+
+.claro .btn-outline-light {
+
+    background-color: black;
+
+    color: white;
+
+    border-color: black;
+
+}
+
+.claro .btn-outline-light:hover {
+
+    background-color: red;
+
+    color: white;
+
+    border-color: red;
+
+}
+
+.claro .carousel-control-prev-icon,
+.claro .carousel-control-next-icon {
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+    border-radius: 50%;
+
+}
+
+.redes {
+
+    text-align: center;
+
+    margin-top: 40px;
+
+}
+
+.redes a {
+
+    color: white;
+
+    font-size: 35px;
+
+    margin: 0 15px;
+
+    transition: 0.3s;
+
+}
+
+.redes a:hover {
+
+    color: red;
+
+}
+
+.claro .redes a {
+
+    color: black;
+
+}
+
+.claro .redes a:hover {
+
+    color: red;
+
+}
+
+.noticias ul,
+.noticias ol {
+
+    margin-top: 20px;
+
+    font-size: 18px;
+
+}
+
+.noticias li {
+
+    margin-bottom: 10px;
+
+}
+
+.footer {
+
+    background-color: #050505;
+
+    border-top: 2px solid red;
+
+    padding: 40px 20px;
+
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+.footer h3 {
+
+    color: red;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 35px;
+
+}
+
+.footer p {
+
+    margin-top: 10px;
+
+}
+
+.footer .btn {
+
+    margin-top: 15px;
+
+}
+
+.copy {
+
+    margin-top: 30px;
+
+    font-size: 14px;
+
+    color: #bdbdbd;
+
+}
+
+.claro .footer {
+
+    background-color: white;
+
+    border-top: 2px solid red;
+
+}
+
+.claro .footer p {
+
+    color: black;
+
+}
+
+.claro .copy {
+
+    color: #555;
+
+}
+.titulo-lista{
+
+    color:red;
+
+    font-family:'Bebas Neue', sans-serif;
+
+    font-size:30px;
+
+}
+.nav-link.active{
+
+    color:red !important;
+
+    font-weight:bold;
+
+}
+
+.claro .nav-link.active{
+
+    color:red !important;
+
+}
+/* ================= CONTACTO ================= */
+
+.contacto{
+
+    padding:70px 20px;
+
+    text-align:center;
+
+}
+
+.contacto h2{
+
+    color:red;
+
+    font-family:'Bebas Neue', sans-serif;
+
+    font-size:55px;
+
+    margin-bottom:25px;
+
+}
+
+.contacto h3{
+
+    color:red;
+
+    font-family:'Bebas Neue', sans-serif;
+
+}
+
+.contacto p{
+
+    font-size:18px;
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.contacto-logo{
+
+    width:220px;
+
+    border:3px solid red;
+
+    border-radius:20px;
+
+    padding:10px;
+
+    background:#111;
+
+    transition:.3s;
+
+}
+
+.contacto-logo:hover{
+
+    transform:scale(1.08);
+
+}
+
+.claro .contacto-logo{
+
+    background:white;
+
+    border-color:red;
+
+}
+/* ================= MODAL ================= */
+
+.modal-content{
+
+    background:#111;
+
+    color:white;
+
+    border:2px solid red;
+
+    border-radius:15px;
+
+}
+
+.modal-header{
+
+    border-bottom:1px solid red;
+
+}
+
+.modal-footer{
+
+    border-top:1px solid red;
+
+}
+
+.modal-title{
+
+    color:red;
+
+    font-family:'Bebas Neue', sans-serif;
+
+    font-size:32px;
+
+}
+
+.form-label{
+
+    color:red;
+
+    font-weight:bold;
+
+}
+
+.form-control{
+
+    background:#1b1b1b;
+
+    color:white;
+
+    border:1px solid red;
+
+}
+
+.form-control:focus{
+
+    background:#1b1b1b;
+
+    color:white;
+
+    border-color:red;
+
+    box-shadow:0 0 8px rgba(255,0,0,.5);
+
+}
+
+.form-control::placeholder{
+
+    color:#bbbbbb;
+
+}
+
+.btn-close{
+
+    filter:invert(1);
+
+}
+
+/* ============ MODO CLÁSICO ============ */
+
+.claro .modal-content{
+
+    background:white;
+
+    color:black;
+
+    border:2px solid red;
+
+}
+
+.claro .form-control{
+
+    background:white;
+
+    color:black;
+
+    border:1px solid red;
+
+}
+
+.claro .form-control:focus{
+
+    background:white;
+
+    color:black;
+
+}
+
+.claro .form-label{
+
+    color:red;
+
+}
+
+.claro .btn-close{
+
+    filter:none;
+
+}
+.modal-content{
+
+    background:#111;
+    color:white;
+    border:2px solid red;
+
+}
+
+.modal-title{
+
+    color:red;
+    font-family:'Bebas Neue', sans-serif;
+
+}
+
+.claro .modal-content{
+
+    background:white;
+    color:black;
+
+}

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Persona 5</title>
+
+    <meta name="description" content="Envía una petición a los Phantom Thieves.">
+
+    <meta name="keywords" content="Persona 5, Phantom Thieves, Contacto">
+
+    <meta name="author" content="Emmanuel">
+
+    <link rel="icon" href="img/logophantom.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+
+                Phantom Thieves
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="index.html">
+
+                            Inicio
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="curiosidades.html">
+
+                            Curiosidades
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active" href="contacto.html">
+
+                            Contacto
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+                <button class="btn btn-outline-light" id="modo">
+
+                    Modo clásico
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="contacto">
+
+        <div class="container text-center">
+
+            <h2>
+
+                Contacto
+
+            </h2>
+
+            <img src="img/logophantom.png" alt="Logo Phantom Thieves" class="img-fluid contacto-logo">
+
+            <h3 class="mt-4">
+
+                Solicita la ayuda de los Phantom Thieves
+
+            </h3>
+
+            <p class="mt-3">
+
+                Si conoces a alguien con un corazón distorsionado,
+                envíanos una solicitud. Los Phantom Thieves podrían aceptar la misión.
+
+            </p>
+
+            <button class="btn btn-danger btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#peticion">
+
+                Solicitar ayuda
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <div class="modal fade" id="peticion" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+
+                        Solicitud para los Phantom Thieves
+
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+
+                </div>
+
+                <div class="modal-body text-center">
+
+                    <img src="img/logophantom.png" alt="Logo Phantom Thieves" width="100" class="mb-3">
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Nombre
+
+                            </label>
+
+                            <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Correo electrónico
+
+                            </label>
+
+                            <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Describe tu petición
+
+                            </label>
+
+                            <textarea class="form-control" rows="4" placeholder="Cuéntanos qué sucede..."></textarea>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+
+                        Cancelar
+
+                    </button>
+
+                    <a href="#" class="btn btn-danger" id="enviarSolicitud">
+
+                        Enviar solicitud
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="politicas" tabindex="-1">
+
+        <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+
+                        Políticas de Privacidad
+
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p>
+
+                        Esta página ha sido desarrollada con fines educativos como proyecto sobre Persona 5.
+
+                    </p>
+
+                    <p>
+
+                        No se recopilan ni almacenan datos personales de los visitantes.
+
+                    </p>
+
+                    <p>
+
+                        La sección de contacto utiliza un enlace mailto: para abrir la aplicación de
+                        correo del usuario y no guarda información en ningún servidor.
+
+                    </p>
+
+                    <hr>
+
+                    <h6>
+
+                        Uso del contenido
+
+                    </h6>
+
+                    <p>
+
+                        Persona 5 y sus personajes pertenecen a Atlus. Este sitio no tiene fines comerciales y
+                        únicamente busca demostrar el uso de tecnologías web.
+
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+
+                        Cerrar
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <h3>
+
+                Phantom Thieves
+
+            </h3>
+
+            <p>
+
+                Cambiando corazones, un Palacio a la vez.
+
+            </p>
+
+            <p>
+
+                Correo: contacto@phantomthieves.com
+
+            </p>
+
+            <div class="redes">
+
+                <a href="https://www.instagram.com/atlus_west/" target="_blank">
+
+                    <i class="bi bi-instagram"></i>
+
+                </a>
+
+                <a href="https://youtube.com/@atlus" target="_blank">
+
+                    <i class="bi bi-youtube"></i>
+
+                </a>
+
+                <a href="#">
+
+                    <i class="bi bi-github"></i>
+
+                </a>
+
+            </div>
+
+            <button class="btn btn-outline-danger mt-3" data-bs-toggle="modal" data-bs-target="#politicas">
+
+                Políticas de privacidad
+
+            </button>
+
+            <p class="copy">
+
+                © 2026 Emmanuel | Proyecto educativo sobre Persona 5
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
